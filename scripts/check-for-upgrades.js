@@ -11,7 +11,7 @@ const actions = require("@actions/core");
 
 // set by the projen file that generates this script
 const CONSTRAINT = "~> 0.1";
-const FQ_PROVIDER_NAME = "salesforce";
+const FQ_PROVIDER_NAME = "hashicorp/salesforce";
 
 (async function main() {
   if (await newerMatchingProviderVersionExists()) {
