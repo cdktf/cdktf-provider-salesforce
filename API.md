@@ -258,6 +258,8 @@ public interpolationForAttribute(terraformAttribute: string): IResolvable
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -290,6 +292,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement"></a>
+
+```typescript
+import { dataSalesforceProfile } from '@cdktf/provider-salesforce'
+
+dataSalesforceProfile.DataSalesforceProfile.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource"></a>
+
+```typescript
+import { dataSalesforceProfile } from '@cdktf/provider-salesforce'
+
+dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -741,6 +771,8 @@ public interpolationForAttribute(terraformAttribute: string): IResolvable
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
 
 ---
 
@@ -773,6 +805,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement"></a>
+
+```typescript
+import { dataSalesforceUserLicense } from '@cdktf/provider-salesforce'
+
+dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformDataSource` <a name="isTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource"></a>
+
+```typescript
+import { dataSalesforceUserLicense } from '@cdktf/provider-salesforce'
+
+dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -1238,6 +1298,8 @@ public resetPermissions(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.profile.Profile.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.profile.Profile.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.profile.Profile.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -1270,6 +1332,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.profile.Profile.isTerraformElement"></a>
+
+```typescript
+import { profile } from '@cdktf/provider-salesforce'
+
+profile.Profile.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.profile.Profile.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-salesforce.profile.Profile.isTerraformResource"></a>
+
+```typescript
+import { profile } from '@cdktf/provider-salesforce'
+
+profile.Profile.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.profile.Profile.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -1721,6 +1811,8 @@ public resetUsername(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider">isTerraformProvider</a></code> | *No description.* |
 
 ---
 
@@ -1753,6 +1845,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-salesforce'
+
+provider.SalesforceProvider.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformProvider` <a name="isTerraformProvider" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider"></a>
+
+```typescript
+import { provider } from '@cdktf/provider-salesforce'
+
+provider.SalesforceProvider.isTerraformProvider(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -2301,6 +2421,8 @@ public resetUserRoleId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.user.User.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.user.User.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.user.User.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -2333,6 +2455,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.user.User.isTerraformElement"></a>
+
+```typescript
+import { user } from '@cdktf/provider-salesforce'
+
+user.User.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.user.User.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-salesforce.user.User.isTerraformResource"></a>
+
+```typescript
+import { user } from '@cdktf/provider-salesforce'
+
+user.User.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.user.User.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
@@ -3033,6 +3183,8 @@ public resetParentRoleId(): void
 | **Name** | **Description** |
 | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.isTerraformResource">isTerraformResource</a></code> | *No description.* |
 
 ---
 
@@ -3065,6 +3217,34 @@ this type-testing method instead.
 - *Type:* any
 
 Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformElement"></a>
+
+```typescript
+import { userRole } from '@cdktf/provider-salesforce'
+
+userRole.UserRole.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformResource"></a>
+
+```typescript
+import { userRole } from '@cdktf/provider-salesforce'
+
+userRole.UserRole.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
 
 ---
 
