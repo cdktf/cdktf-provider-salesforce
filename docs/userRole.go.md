@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/salesforce/r/user_ro
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.userRole.UserRole.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v3/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/userrole"
 
 userrole.NewUserRole(scope Construct, id *string, config UserRoleConfig) UserRole
 ```
@@ -273,7 +273,7 @@ func ResetParentRoleId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.userRole.UserRole.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v3/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/userrole"
 
 userrole.UserRole_IsConstruct(x interface{}) *bool
 ```
@@ -305,7 +305,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v3/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/userrole"
 
 userrole.UserRole_IsTerraformElement(x interface{}) *bool
 ```
@@ -319,7 +319,7 @@ userrole.UserRole_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v3/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/userrole"
 
 userrole.UserRole_IsTerraformResource(x interface{}) *bool
 ```
@@ -595,7 +595,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.userRole.UserRoleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v3/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/userrole"
 
 &userrole.UserRoleConfig {
 	Connection: interface{},
