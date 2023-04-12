@@ -9,7 +9,7 @@ Represents a {@link https://www.terraform.io/docs/providers/salesforce/r/user sa
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.user.User.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/user"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/user"
 
 user.NewUser(scope Construct, id *string, config UserConfig) User
 ```
@@ -308,7 +308,7 @@ func ResetUserRoleId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.user.User.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/user"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/user"
 
 user.User_IsConstruct(x interface{}) *bool
 ```
@@ -340,7 +340,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.user.User.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/user"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/user"
 
 user.User_IsTerraformElement(x interface{}) *bool
 ```
@@ -354,7 +354,7 @@ user.User_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-salesforce.user.User.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/user"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/user"
 
 user.User_IsTerraformResource(x interface{}) *bool
 ```
@@ -806,7 +806,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.user.UserConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/user"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/user"
 
 &user.UserConfig {
 	Connection: interface{},
