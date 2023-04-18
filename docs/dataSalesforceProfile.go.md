@@ -1,6 +1,6 @@
 # `data_salesforce_profile`
 
-Refer to the Terraform Registory for docs: [`data_salesforce_profile`](https://www.terraform.io/docs/providers/salesforce/d/profile).
+Refer to the Terraform Registory for docs: [`data_salesforce_profile`](https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile).
 
 # `dataSalesforceProfile` Submodule <a name="`dataSalesforceProfile` Submodule" id="@cdktf/provider-salesforce.dataSalesforceProfile"></a>
 
@@ -8,7 +8,7 @@ Refer to the Terraform Registory for docs: [`data_salesforce_profile`](https://w
 
 ### DataSalesforceProfile <a name="DataSalesforceProfile" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile"></a>
 
-Represents a {@link https://www.terraform.io/docs/providers/salesforce/d/profile salesforce_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile salesforce_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.Initializer"></a>
 
@@ -338,7 +338,7 @@ datasalesforceprofile.DataSalesforceProfile_IsTerraformDataSource(x interface{})
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.terraformMetaArguments">TerraformMetaArguments</a></code> | <code>*map[string]interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.terraformResourceType">TerraformResourceType</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.terraformGeneratorMetadata">TerraformGeneratorMetadata</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProviderGeneratorMetadata</code> | *No description.* |
-| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.dependsOn">DependsOn</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -424,10 +424,10 @@ func TerraformGeneratorMetadata() TerraformProviderGeneratorMetadata
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.property.count"></a>
 
 ```go
-func Count() *f64
+func Count() interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -530,7 +530,7 @@ import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/datasalesfor
 
 &datasalesforceprofile.DataSalesforceProfileConfig {
 	Connection: interface{},
-	Count: *f64,
+	Count: interface{},
 	DependsOn: *[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable,
 	ForEach: github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator,
 	Lifecycle: github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle,
@@ -545,7 +545,7 @@ import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/datasalesfor
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.connection">Connection</a></code> | <code>interface{}</code> | *No description.* |
-| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.count">Count</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.count">Count</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.dependsOn">DependsOn</a></code> | <code>*[]github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformDependable</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.forEach">ForEach</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/hashicorp/terraform-cdk-go/cdktf.TerraformResourceLifecycle</code> | *No description.* |
@@ -568,10 +568,10 @@ Connection interface{}
 ##### `Count`<sup>Optional</sup> <a name="Count" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.property.count"></a>
 
 ```go
-Count *f64
+Count interface{}
 ```
 
-- *Type:* *f64
+- *Type:* interface{}
 
 ---
 
@@ -635,7 +635,7 @@ Name *string
 
 The name of the profile.
 
-Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/d/profile#name DataSalesforceProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile#name DataSalesforceProfile#name}
 
 ---
 

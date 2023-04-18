@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/salesforce/r/profile
+// https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the profile.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/r/profile#description Profile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#description Profile#description}
   */
   readonly description?: string;
   /**
   * The name of the profile.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/r/profile#name Profile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#name Profile#name}
   */
   readonly name: string;
   /**
   * Map of permissions for the profile. At this time specific permissions can only be set, the comprehensive list will not be read from Salesforce. The keys should follow Salesforce 'SnakeCase' format however the 'Permissions' prefix should be omitted. Permissions will not import to state due to a technical limitation, you will need to run a subsequent apply if you have permissions set in config during import.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/r/profile#permissions Profile#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#permissions Profile#permissions}
   */
   readonly permissions?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * ID of the UserLicense associated with this profile. Forces replacement if updated.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/r/profile#user_license_id Profile#user_license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#user_license_id Profile#user_license_id}
   */
   readonly userLicenseId: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/salesforce/r/profile salesforce_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile salesforce_profile}
 */
 export class Profile extends cdktf.TerraformResource {
 
@@ -48,7 +48,7 @@ export class Profile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/salesforce/r/profile salesforce_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile salesforce_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope

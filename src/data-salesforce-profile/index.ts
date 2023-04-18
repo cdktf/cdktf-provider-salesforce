@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/salesforce/d/profile
+// https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSalesforceProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the profile.
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/d/profile#name DataSalesforceProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile#name DataSalesforceProfile#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/salesforce/d/profile salesforce_profile}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile salesforce_profile}
 */
 export class DataSalesforceProfile extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataSalesforceProfile extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/salesforce/d/profile salesforce_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile salesforce_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
