@@ -1,4 +1,4 @@
-// https://www.terraform.io/docs/providers/salesforce/d/user_license
+// https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSalesforceUserLicenseConfig extends cdktf.TerraformMetaArgu
   /**
   * A string that uniquely identifies a particular user license. Valid options vary depending on organization type and configuration. For a complete list see https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_userlicense.htm
   * 
-  * Docs at Terraform Registry: {@link https://www.terraform.io/docs/providers/salesforce/d/user_license#license_definition_key DataSalesforceUserLicense#license_definition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license#license_definition_key DataSalesforceUserLicense#license_definition_key}
   */
   readonly licenseDefinitionKey: string;
 }
 
 /**
-* Represents a {@link https://www.terraform.io/docs/providers/salesforce/d/user_license salesforce_user_license}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license salesforce_user_license}
 */
 export class DataSalesforceUserLicense extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataSalesforceUserLicense extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://www.terraform.io/docs/providers/salesforce/d/user_license salesforce_user_license} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license salesforce_user_license} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
