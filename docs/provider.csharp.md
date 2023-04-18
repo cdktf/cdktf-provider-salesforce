@@ -1,3 +1,7 @@
+# `provider`
+
+Refer to the Terraform Registory for docs: [`salesforce`](https://www.terraform.io/docs/providers/salesforce).
+
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-salesforce.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

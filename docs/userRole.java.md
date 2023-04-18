@@ -1,3 +1,7 @@
+# `salesforce_user_role`
+
+Refer to the Terraform Registory for docs: [`salesforce_user_role`](https://www.terraform.io/docs/providers/salesforce/r/user_role).
+
 # `userRole` Submodule <a name="`userRole` Submodule" id="@cdktf/provider-salesforce.userRole"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>

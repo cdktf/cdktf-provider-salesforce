@@ -1,3 +1,7 @@
+# `salesforce_profile`
+
+Refer to the Terraform Registory for docs: [`salesforce_profile`](https://www.terraform.io/docs/providers/salesforce/r/profile).
+
 # `profile` Submodule <a name="`profile` Submodule" id="@cdktf/provider-salesforce.profile"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
