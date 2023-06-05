@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.provider.SalesforceProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/provider"
 
 provider.NewSalesforceProvider(scope Construct, id *string, config SalesforceProviderConfig) SalesforceProvider
 ```
@@ -182,7 +182,7 @@ func ResetUsername()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/provider"
 
 provider.SalesforceProvider_IsConstruct(x interface{}) *bool
 ```
@@ -214,7 +214,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/provider"
 
 provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -228,7 +228,7 @@ provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/provider"
 
 provider.SalesforceProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -493,7 +493,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.provider.SalesforceProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v4/provider"
 
 &provider.SalesforceProviderConfig {
 	Alias: *string,
