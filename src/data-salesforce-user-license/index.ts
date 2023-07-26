@@ -14,7 +14,7 @@ import * as cdktf from 'cdktf';
 export interface DataSalesforceUserLicenseConfig extends cdktf.TerraformMetaArguments {
   /**
   * A string that uniquely identifies a particular user license. Valid options vary depending on organization type and configuration. For a complete list see https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_userlicense.htm
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license#license_definition_key DataSalesforceUserLicense#license_definition_key}
   */
   readonly licenseDefinitionKey: string;

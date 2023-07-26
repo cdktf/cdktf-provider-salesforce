@@ -14,7 +14,7 @@ import * as cdktf from 'cdktf';
 export interface DataSalesforceProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the profile.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile#name DataSalesforceProfile#name}
   */
   readonly name: string;
