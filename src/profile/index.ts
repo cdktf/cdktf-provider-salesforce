@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile
 // generated from terraform resource schema
 
@@ -14,25 +9,25 @@ import * as cdktf from 'cdktf';
 export interface ProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the profile.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#description Profile#description}
   */
   readonly description?: string;
   /**
   * The name of the profile.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#name Profile#name}
   */
   readonly name: string;
   /**
   * Map of permissions for the profile. At this time specific permissions can only be set, the comprehensive list will not be read from Salesforce. The keys should follow Salesforce 'SnakeCase' format however the 'Permissions' prefix should be omitted. Permissions will not import to state due to a technical limitation, you will need to run a subsequent apply if you have permissions set in config during import.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#permissions Profile#permissions}
   */
   readonly permissions?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * ID of the UserLicense associated with this profile. Forces replacement if updated.
-  * 
+  *
   * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/profile#user_license_id Profile#user_license_id}
   */
   readonly userLicenseId: string;
