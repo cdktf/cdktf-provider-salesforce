@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.provider.SalesforceProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.NewSalesforceProvider(scope Construct, id *string, config SalesforceProviderConfig) SalesforceProvider
 ```
@@ -176,13 +176,14 @@ func ResetUsername()
 | <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider">IsTerraformProvider</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a SalesforceProvider resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsConstruct(x interface{}) *bool
 ```
@@ -214,7 +215,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -228,7 +229,7 @@ provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -236,6 +237,50 @@ provider.SalesforceProvider_IsTerraformProvider(x interface{}) *bool
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
+
+provider.SalesforceProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a SalesforceProvider resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the SalesforceProvider to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing SalesforceProvider that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the SalesforceProvider to import is found.
 
 ---
 
@@ -493,7 +538,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.provider.SalesforceProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 &provider.SalesforceProviderConfig {
 	Alias: *string,
