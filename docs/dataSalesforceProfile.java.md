@@ -330,6 +330,7 @@ public IResolvable interpolationForAttribute(java.lang.String terraformAttribute
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement">isTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource">isTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTF code for importing a DataSalesforceProfile resource upon running "cdktf plan <stack-name>". |
 
 ---
 
@@ -390,6 +391,50 @@ DataSalesforceProfile.isTerraformDataSource(java.lang.Object x)
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* java.lang.Object
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport"></a>
+
+```java
+import com.hashicorp.cdktf.providers.salesforce.data_salesforce_profile.DataSalesforceProfile;
+
+DataSalesforceProfile.generateConfigForImport(Construct scope, java.lang.String importToId, java.lang.String importFromId),DataSalesforceProfile.generateConfigForImport(Construct scope, java.lang.String importToId, java.lang.String importFromId, TerraformProvider provider)
+```
+
+Generates CDKTF code for importing a DataSalesforceProfile resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* software.constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* java.lang.String
+
+The construct id used in the generated config for the DataSalesforceProfile to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* java.lang.String
+
+The id of the existing DataSalesforceProfile that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/profile#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* com.hashicorp.cdktf.TerraformProvider
+
+? Optional instance of the provider where the DataSalesforceProfile to import is found.
 
 ---
 

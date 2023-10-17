@@ -13,7 +13,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.NewDataSalesforceUserLicense(scope Construct, id *string, config DataSalesforceUserLicenseConfig) DataSalesforceUserLicense
 ```
@@ -264,13 +264,14 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isConstruct">IsConstruct</a></code> | Checks if `x` is a construct. |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement">IsTerraformElement</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource">IsTerraformDataSource</a></code> | *No description.* |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport">GenerateConfigForImport</a></code> | Generates CDKTF code for importing a DataSalesforceUserLicense resource upon running "cdktf plan <stack-name>". |
 
 ---
 
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsConstruct(x interface{}) *bool
 ```
@@ -302,7 +303,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformElement(x interface{}) *bool
 ```
@@ -316,7 +317,7 @@ datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -324,6 +325,50 @@ datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformDataSource(x inte
 ###### `x`<sup>Required</sup> <a name="x" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource.parameter.x"></a>
 
 - *Type:* interface{}
+
+---
+
+##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport"></a>
+
+```go
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
+
+datasalesforceuserlicense.DataSalesforceUserLicense_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
+```
+
+Generates CDKTF code for importing a DataSalesforceUserLicense resource upon running "cdktf plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* github.com/aws/constructs-go/constructs/v10.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* *string
+
+The construct id used in the generated config for the DataSalesforceUserLicense to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* *string
+
+The id of the existing DataSalesforceUserLicense that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* github.com/hashicorp/terraform-cdk-go/cdktf.TerraformProvider
+
+? Optional instance of the provider where the DataSalesforceUserLicense to import is found.
 
 ---
 
@@ -526,7 +571,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicenseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 &datasalesforceuserlicense.DataSalesforceUserLicenseConfig {
 	Connection: interface{},
