@@ -1,7 +1,9 @@
 
-# Terraform CDK salesforce Provider ~> 0.1
+# Terraform CDK salesforce Provider tracks ~> 0.1
 
 This repo builds and publishes the Terraform salesforce Provider bindings for [CDK for Terraform](https://cdk.tf).
+
+Is based directly on salesforce 0.1.0
 
 ## Available Packages
 
