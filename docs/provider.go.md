@@ -1,7 +1,3 @@
-# `provider`
-
-Refer to the Terraform Registory for docs: [`salesforce`](https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs).
-
 # `provider` Submodule <a name="`provider` Submodule" id="@cdktf/provider-salesforce.provider"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
@@ -13,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.provider.SalesforceProvider.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.NewSalesforceProvider(scope Construct, id *string, config SalesforceProviderConfig) SalesforceProvider
 ```
@@ -183,7 +179,7 @@ func ResetUsername()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsConstruct(x interface{}) *bool
 ```
@@ -215,7 +211,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ```
@@ -229,7 +225,7 @@ provider.SalesforceProvider_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformProvider` <a name="IsTerraformProvider" id="@cdktf/provider-salesforce.provider.SalesforceProvider.isTerraformProvider"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_IsTerraformProvider(x interface{}) *bool
 ```
@@ -243,7 +239,7 @@ provider.SalesforceProvider_IsTerraformProvider(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.provider.SalesforceProvider.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 provider.SalesforceProvider_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -538,7 +534,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.provider.SalesforceProviderConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/provider"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/provider"
 
 &provider.SalesforceProviderConfig {
 	Alias: *string,
