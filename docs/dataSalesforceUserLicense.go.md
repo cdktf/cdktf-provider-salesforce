@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.NewDataSalesforceUserLicense(scope Construct, id *string, config DataSalesforceUserLicenseConfig) DataSalesforceUserLicense
 ```
@@ -267,7 +267,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsConstruct(x interface{}) *bool
 ```
@@ -299,7 +299,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformElement(x interface{}) *bool
 ```
@@ -313,7 +313,7 @@ datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformElement(x interfa
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -327,7 +327,7 @@ datasalesforceuserlicense.DataSalesforceUserLicense_IsTerraformDataSource(x inte
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicense.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 datasalesforceuserlicense.DataSalesforceUserLicense_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -567,7 +567,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.dataSalesforceUserLicense.DataSalesforceUserLicenseConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceuserlicense"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceuserlicense"
 
 &datasalesforceuserlicense.DataSalesforceUserLicenseConfig {
 	Connection: interface{},
