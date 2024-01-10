@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.userRole.UserRole.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 userrole.NewUserRole(scope Construct, id *string, config UserRoleConfig) UserRole
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.toHclTerraform">ToHclTerraform</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-salesforce.userRole.UserRole.addMoveTarget">AddMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
@@ -125,6 +126,12 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-salesforce.userRole.UserRole.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-salesforce.userRole.UserRole.toMetadata"></a>
 
@@ -378,7 +385,7 @@ func ResetParentRoleId()
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.userRole.UserRole.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 userrole.UserRole_IsConstruct(x interface{}) *bool
 ```
@@ -410,7 +417,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 userrole.UserRole_IsTerraformElement(x interface{}) *bool
 ```
@@ -424,7 +431,7 @@ userrole.UserRole_IsTerraformElement(x interface{}) *bool
 ##### `IsTerraformResource` <a name="IsTerraformResource" id="@cdktf/provider-salesforce.userRole.UserRole.isTerraformResource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 userrole.UserRole_IsTerraformResource(x interface{}) *bool
 ```
@@ -438,7 +445,7 @@ userrole.UserRole_IsTerraformResource(x interface{}) *bool
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.userRole.UserRole.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 userrole.UserRole_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -744,7 +751,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.userRole.UserRoleConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/userrole"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/userrole"
 
 &userrole.UserRoleConfig {
 	Connection: interface{},

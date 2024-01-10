@@ -105,4 +105,18 @@ export class DataSalesforceUserLicense extends cdktf.TerraformDataSource {
       license_definition_key: cdktf.stringToTerraform(this._licenseDefinitionKey),
     };
   }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      license_definition_key: {
+        value: cdktf.stringToHclTerraform(this._licenseDefinitionKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
 }
