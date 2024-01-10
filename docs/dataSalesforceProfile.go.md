@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 datasalesforceprofile.NewDataSalesforceProfile(scope Construct, id *string, config DataSalesforceProfileConfig) DataSalesforceProfile
 ```
@@ -276,7 +276,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsConstruct(x interface{}) *bool
 ```
@@ -308,7 +308,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -322,7 +322,7 @@ datasalesforceprofile.DataSalesforceProfile_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -336,7 +336,7 @@ datasalesforceprofile.DataSalesforceProfile_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -576,7 +576,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v8/datasalesforceprofile"
 
 &datasalesforceprofile.DataSalesforceProfileConfig {
 	Connection: interface{},
