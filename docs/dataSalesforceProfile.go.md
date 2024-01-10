@@ -9,7 +9,7 @@ Represents a {@link https://registry.terraform.io/providers/hashicorp/salesforce
 #### Initializers <a name="Initializers" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 datasalesforceprofile.NewDataSalesforceProfile(scope Construct, id *string, config DataSalesforceProfileConfig) DataSalesforceProfile
 ```
@@ -54,6 +54,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.addOverride">AddOverride</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.overrideLogicalId">OverrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.resetOverrideLogicalId">ResetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.toHclTerraform">ToHclTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.toMetadata">ToMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.toTerraform">ToTerraform</a></code> | Adds this resource to the terraform JSON output. |
 | <code><a href="#@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
@@ -118,6 +119,14 @@ func ResetOverrideLogicalId()
 ```
 
 Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `ToHclTerraform` <a name="ToHclTerraform" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.toHclTerraform"></a>
+
+```go
+func ToHclTerraform() interface{}
+```
+
+Adds this resource to the terraform JSON output.
 
 ##### `ToMetadata` <a name="ToMetadata" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.toMetadata"></a>
 
@@ -267,7 +276,7 @@ func InterpolationForAttribute(terraformAttribute *string) IResolvable
 ##### `IsConstruct` <a name="IsConstruct" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isConstruct"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsConstruct(x interface{}) *bool
 ```
@@ -299,7 +308,7 @@ Any object.
 ##### `IsTerraformElement` <a name="IsTerraformElement" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformElement"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsTerraformElement(x interface{}) *bool
 ```
@@ -313,7 +322,7 @@ datasalesforceprofile.DataSalesforceProfile_IsTerraformElement(x interface{}) *b
 ##### `IsTerraformDataSource` <a name="IsTerraformDataSource" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.isTerraformDataSource"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_IsTerraformDataSource(x interface{}) *bool
 ```
@@ -327,7 +336,7 @@ datasalesforceprofile.DataSalesforceProfile_IsTerraformDataSource(x interface{})
 ##### `GenerateConfigForImport` <a name="GenerateConfigForImport" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfile.generateConfigForImport"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 datasalesforceprofile.DataSalesforceProfile_GenerateConfigForImport(scope Construct, importToId *string, importFromId *string, provider TerraformProvider) ImportableResource
 ```
@@ -567,7 +576,7 @@ func TfResourceType() *string
 #### Initializer <a name="Initializer" id="@cdktf/provider-salesforce.dataSalesforceProfile.DataSalesforceProfileConfig.Initializer"></a>
 
 ```go
-import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/v7/datasalesforceprofile"
+import "github.com/cdktf/cdktf-provider-salesforce-go/salesforce/datasalesforceprofile"
 
 &datasalesforceprofile.DataSalesforceProfileConfig {
 	Connection: interface{},

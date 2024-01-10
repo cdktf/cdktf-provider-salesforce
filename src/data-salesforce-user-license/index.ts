@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/data-sources/user_license
 // generated from terraform resource schema
 
@@ -104,5 +99,19 @@ export class DataSalesforceUserLicense extends cdktf.TerraformDataSource {
     return {
       license_definition_key: cdktf.stringToTerraform(this._licenseDefinitionKey),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      license_definition_key: {
+        value: cdktf.stringToHclTerraform(this._licenseDefinitionKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }

@@ -1,8 +1,3 @@
-/**
- * Copyright (c) HashiCorp, Inc.
- * SPDX-License-Identifier: MPL-2.0
- */
-
 // https://registry.terraform.io/providers/hashicorp/salesforce/0.1.0/docs/resources/user_role
 // generated from terraform resource schema
 
@@ -149,5 +144,31 @@ export class UserRole extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       parent_role_id: cdktf.stringToTerraform(this._parentRoleId),
     };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      developer_name: {
+        value: cdktf.stringToHclTerraform(this._developerName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      name: {
+        value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      parent_role_id: {
+        value: cdktf.stringToHclTerraform(this._parentRoleId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
   }
 }
